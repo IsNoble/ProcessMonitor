@@ -7,7 +7,8 @@ PYTHON
 - Add more logging to the script side
 - Write proper error handling code for script side failures
 - Convert Python timestamp to JavaScript/Clearblade Timestamp object?
-- currently opening and connecting and disconnecting MQTT for every message. This is likely inefficient. R&I 
+- Handle Keyboard Interrupt or similar?
+- Currently opening and connecting and disconnecting MQTT for every message. This is likely inefficient. R&I 
 
 ClearBlade System
 - Get Microservice + Timer working. 
