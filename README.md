@@ -9,7 +9,7 @@ PYTHON
 - Convert Python timestamp to JavaScript/Clearblade Timestamp object?
 - ~~Handle Keyboard Interrupt or similar?~~
     - Completed. Script now cleanly handles KeyboardInterrupts
-- ~~Currently opening and connecting and disconnecting MQTT for every message. This is likely inefficient. R&I ~~
+- ~~Currently opening and connecting and disconnecting MQTT for every message. This is likely inefficient. R&I~~
     - Completed, Script now connects and disconnects to/from MQTT a single time. 
 
 ClearBlade System
