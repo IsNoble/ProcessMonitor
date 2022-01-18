@@ -17,4 +17,5 @@ ClearBlade System
   - creation error :"json: cannot unmarshal bool into Go value of type map[string]interface {}"?
 - Convert ProcessLog collection timestamp column to use Timestamp instead of string.
 - Put a row limit/row check on ProcessLog Collection? Not sure how resources are allocated to the system, or from where. R&I  
-- Script is sending 3 messages at a time???
+- ~~Script is sending 3 messages at a time???~~
+        -Solved, running extra instances of the processMonitor service that didnt need to be running. Caused the incorrect behavior. 
